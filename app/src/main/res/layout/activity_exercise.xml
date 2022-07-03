@@ -1,0 +1,96 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/lightBlue"
+    tools:context=".exercise"
+    android:orientation="vertical">
+
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        tools:ignore="MissingConstraints,ScrollViewCount">
+
+        <LinearLayout
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:layout_margin="5dp">
+
+
+        <LinearLayout
+            android:layout_width="fill_parent"
+            android:layout_height="200dp"
+            android:layout_margin="15dp"
+            android:padding="10dp"
+            android:orientation="horizontal"
+            android:background="@drawable/cardbackground">
+            <ImageButton
+                android:id="@+id/bicep"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:src="@drawable/bicep">
+
+            </ImageButton>
+        </LinearLayout>
+
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="200dp"
+                android:layout_margin="15dp"
+                android:padding="10dp"
+                android:orientation="horizontal"
+                android:background="@drawable/cardbackground">
+                <ImageButton
+                    android:id="@+id/chest"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:src="@drawable/chest">
+
+                </ImageButton>
+        </LinearLayout>
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="200dp"
+            android:layout_margin="15dp"
+            android:padding="10dp"
+            android:orientation="horizontal"
+            android:background="@drawable/cardbackground">
+            <ImageButton
+                android:id="@+id/leg"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:src="@drawable/leg">
+
+            </ImageButton>
+        </LinearLayout>
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="200dp"
+            android:layout_margin="15dp"
+            android:padding="10dp"
+            android:orientation="horizontal"
+            android:background="@drawable/cardbackground">
+            <ImageButton
+                android:id="@+id/abs"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:src="@drawable/abs">
+
+            </ImageButton>
+        </LinearLayout>
+
+        </LinearLayout>
+    </ScrollView>
+
+</LinearLayout>

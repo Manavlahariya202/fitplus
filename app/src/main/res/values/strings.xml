@@ -1,0 +1,10 @@
+<resources>
+    <string name="app_name">fitplus</string>
+    <string name="diet">Diet</string>
+    <string name="bmi">BMI</string>
+    <string name="exercise">Exercise</string>
+    <string name="calculate">Calculate</string>
+    <string name="female">Female</string>
+    <string name="male">Male</string>
+    <string name="re_calculate_your_bmi">Re-Calculate your BMI</string>
+</resources>
