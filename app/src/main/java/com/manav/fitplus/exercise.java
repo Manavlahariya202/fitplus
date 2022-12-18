@@ -6,9 +6,10 @@ import android.content.Intent;
 import android.os.Bundle;
 import android.view.View;
 import android.widget.ImageButton;
+import android.widget.ImageView;
 
 public class exercise extends AppCompatActivity {
-    public ImageButton button1,button2,button3,button4;
+    public ImageView button1,button2,button3,button4;
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
@@ -16,10 +17,10 @@ public class exercise extends AppCompatActivity {
 
 
 
-        button1 = (ImageButton) findViewById(R.id.bicep);
-        button2 = (ImageButton) findViewById(R.id.leg);
-        button3=(ImageButton) findViewById(R.id.chest);
-        button4=(ImageButton) findViewById(R.id.abs);
+        button1 = (ImageView) findViewById(R.id.bicep);
+        button2 = (ImageView) findViewById(R.id.leg);
+        button3=(ImageView) findViewById(R.id.chest);
+        button4=(ImageView) findViewById(R.id.abs);
 
 
         button1.setOnClickListener(new View.OnClickListener() {

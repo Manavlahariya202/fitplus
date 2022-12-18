@@ -30,13 +30,13 @@
             android:padding="10dp"
             android:orientation="horizontal"
             android:background="@drawable/cardbackground">
-            <ImageButton
+            <ImageView
                 android:id="@+id/bicep"
                 android:layout_width="match_parent"
                 android:layout_height="match_parent"
-                android:src="@drawable/bicep">
+                android:src="@drawable/bicep5">
 
-            </ImageButton>
+            </ImageView>
         </LinearLayout>
 
 
@@ -47,13 +47,13 @@
                 android:padding="10dp"
                 android:orientation="horizontal"
                 android:background="@drawable/cardbackground">
-                <ImageButton
+                <ImageView
                     android:id="@+id/chest"
                     android:layout_width="match_parent"
                     android:layout_height="match_parent"
-                    android:src="@drawable/chest">
+                    android:src="@drawable/chest999">
 
-                </ImageButton>
+                </ImageView>
         </LinearLayout>
 
 
@@ -64,13 +64,13 @@
             android:padding="10dp"
             android:orientation="horizontal"
             android:background="@drawable/cardbackground">
-            <ImageButton
+            <ImageView
                 android:id="@+id/leg"
                 android:layout_width="match_parent"
                 android:layout_height="match_parent"
-                android:src="@drawable/leg">
+                android:src="@drawable/leg999">
 
-            </ImageButton>
+            </ImageView>
         </LinearLayout>
 
 
@@ -81,13 +81,13 @@
             android:padding="10dp"
             android:orientation="horizontal"
             android:background="@drawable/cardbackground">
-            <ImageButton
+            <ImageView
                 android:id="@+id/abs"
                 android:layout_width="match_parent"
                 android:layout_height="match_parent"
-                android:src="@drawable/abs">
+                android:src="@drawable/abs999">
 
-            </ImageButton>
+            </ImageView>
         </LinearLayout>
 
         </LinearLayout>

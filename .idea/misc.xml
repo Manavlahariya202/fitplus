@@ -3,6 +3,31 @@
   <component name="DesignSurface">
     <option name="filePathToZoomLevelMap">
       <map>
+        <entry key="..\:/android project/fitplus6/app/src/main/res/drawable/cardbackground.xml" value="0.1575" />
+        <entry key="..\:/android project/fitplus6/app/src/main/res/drawable/cardboard5.xml" value="0.1575" />
+        <entry key="..\:/android project/fitplus6/app/src/main/res/drawable/cardboard6.xml" value="0.1575" />
+        <entry key="..\:/android project/fitplus6/app/src/main/res/drawable/cardboard7.xml" value="0.1575" />
+        <entry key="..\:/android project/fitplus6/app/src/main/res/drawable/cardboard8.xml" value="0.1575" />
+        <entry key="..\:/android project/fitplus6/app/src/main/res/drawable/focus.xml" value="0.1545" />
+        <entry key="..\:/android project/fitplus6/app/src/main/res/layout/activity_biceps.xml" value="0.1713815789473684" />
+        <entry key="..\:/android project/fitplus6/app/src/main/res/layout/activity_bmi.xml" value="0.1713815789473684" />
+        <entry key="..\:/android project/fitplus6/app/src/main/res/layout/activity_bmi1.xml" value="0.1713815789473684" />
+        <entry key="..\:/android project/fitplus6/app/src/main/res/layout/activity_diet.xml" value="0.1713815789473684" />
+        <entry key="..\:/android project/fitplus6/app/src/main/res/layout/activity_exercise.xml" value="0.1713815789473684" />
+        <entry key="..\:/android project/fitplus6/app/src/main/res/layout/activity_gender1.xml" value="0.1713815789473684" />
+        <entry key="..\:/android project/fitplus6/app/src/main/res/layout/activity_legs.xml" value="0.1713815789473684" />
+        <entry key="..\:/android project/fitplus6/app/src/main/res/layout/activity_main.xml" value="0.176" />
+        <entry key="..\:/android project/fitplus6/app/src/main/res/layout/activity_main_boy.xml" value="0.2" />
+        <entry key="..\:/android project/fitplus6/app/src/main/res/layout/activity_period.xml" value="0.1713815789473684" />
+        <entry key="..\:/android project/fitplus6/app/src/main/res/layout/activity_period2.xml" value="0.1713815789473684" />
+        <entry key="..\:/android project/fitplus6/app/src/main/res/layout/activity_selection.xml" value="0.176" />
+        <entry key="..\:/android project/fitplus6/app/src/main/res/layout/activity_splash.xml" value="0.2" />
+        <entry key="..\:/android project/fitplus6/app/src/main/res/layout/activity_video.xml" value="0.1713815789473684" />
+        <entry key="..\:/android project/fitplus6/app/src/main/res/layout/activity_video_girl2.xml" value="0.1713815789473684" />
+        <entry key="..\:/android project/fitplus6/app/src/main/res/layout/fragment_second.xml" value="0.1713815789473684" />
+        <entry key="..\:/android project/fitplus6/app/src/main/res/layout/gender.xml" value="0.152" />
+        <entry key="..\:/android project/fitplus6/app/src/main/res/layout/layout.xml" value="0.1713815789473684" />
+        <entry key="..\:/android project/fitplus6/app/src/main/res/layout/test.xml" value="0.1713815789473684" />
         <entry key="..\:/fitplus6/app/src/main/res/drawable/cardbackground.xml" value="0.1265" />
         <entry key="..\:/fitplus6/app/src/main/res/drawable/focus.xml" value="0.1275" />
         <entry key="..\:/fitplus6/app/src/main/res/drawable/notfocus.xml" value="0.1275" />

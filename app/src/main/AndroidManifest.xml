@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
-    package="com.manav.fitplus">
+    package="com.manav.fitplus" >
 
     <application
         android:allowBackup="true"
@@ -8,23 +8,50 @@
         android:label="@string/app_name"
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
-        android:theme="@style/Theme.Fitplus">
+        android:theme="@style/Theme.Fitplus" >
+        <activity
+            android:name=".VideoActivity_girl"
+            android:exported="false" />
+        <activity
+            android:name=".selection"
+            android:exported="false"
+            android:theme="@style/Theme.MaterialComponents.NoActionBar" />
+        <activity
+            android:name=".VideoActivity"
+            android:exported="false"
+            android:theme="@style/Theme.MaterialComponents.NoActionBar" />
+        <activity
+            android:name=".PeriodActivity2"
+            android:exported="false"
+            android:theme="@style/Theme.MaterialComponents.NoActionBar" />
+        <activity
+            android:name=".MainActivity_boy"
+            android:exported="false"
+            android:theme="@style/Theme.MaterialComponents.NoActionBar" />
+        <activity
+            android:name=".period"
+            android:exported="false"
+            android:theme="@style/Theme.MaterialComponents.NoActionBar" />
+        <activity
+            android:name=".gender1"
+            android:exported="false"
+            android:theme="@style/Theme.MaterialComponents.NoActionBar" />
         <activity
             android:name=".chest"
             android:exported="false"
-            android:theme="@style/Theme.MaterialComponents.NoActionBar"/>
+            android:theme="@style/Theme.MaterialComponents.NoActionBar" />
         <activity
             android:name=".legs"
             android:exported="false"
-            android:theme="@style/Theme.MaterialComponents.NoActionBar"/>
+            android:theme="@style/Theme.MaterialComponents.NoActionBar" />
         <activity
             android:name=".abs"
             android:exported="false"
-            android:theme="@style/Theme.MaterialComponents.NoActionBar"/>
+            android:theme="@style/Theme.MaterialComponents.NoActionBar" />
         <activity
             android:name=".biceps"
             android:exported="false"
-            android:theme="@style/Theme.MaterialComponents.NoActionBar"/>
+            android:theme="@style/Theme.MaterialComponents.NoActionBar" />
         <activity
             android:name=".Diet"
             android:exported="false"
@@ -36,15 +63,14 @@
         <activity
             android:name=".bmiActivity1"
             android:exported="false"
-            android:theme="@style/Theme.MaterialComponents.NoActionBar"/>
+            android:theme="@style/Theme.MaterialComponents.NoActionBar" />
         <activity
             android:name=".bmi"
-            android:exported="false"
-            />
+            android:exported="false" />
         <activity
-            android:theme="@style/Theme.MaterialComponents.NoActionBar"
             android:name=".SplashActivity"
-            android:exported="true">
+            android:exported="true"
+            android:theme="@style/Theme.MaterialComponents.NoActionBar" >
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 

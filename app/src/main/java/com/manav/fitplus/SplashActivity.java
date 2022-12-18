@@ -15,11 +15,11 @@ public class SplashActivity extends AppCompatActivity {
             @Override
             public void run() {
                 try {
-                    sleep(5000);
+                    sleep(1500);
                 }catch (Exception e){
                     e.printStackTrace();
                 }finally {
-                    startActivity(new Intent(SplashActivity.this,MainActivity.class));
+                    startActivity(new Intent(SplashActivity.this,gender1.class));
                 }
 
             }

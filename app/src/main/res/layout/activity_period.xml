@@ -1,0 +1,381 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/pink"
+    tools:context=".period">
+
+    <RelativeLayout
+        android:id="@+id/centerHorizontal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_centerVertical="true"
+        tools:ignore="MissingConstraints">
+
+
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:id="@+id/centerVerticalLine"
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent"
+        android:layout_centerHorizontal="true"
+        tools:ignore="MissingConstraints">
+
+    </RelativeLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+        <RelativeLayout
+            android:id="@+id/day"
+            android:layout_width="125dp"
+            android:layout_height="125dp"
+            android:layout_marginTop="20dp"
+            android:layout_toStartOf="@+id/centerVerticalLine"
+            android:background="@drawable/cardbackground"
+            app:layout_constraintBottom_toTopOf="@+id/count1"
+            app:layout_constraintTop_toTopOf="parent"
+            tools:ignore="MissingConstraints"
+            android:layout_gravity="center"
+            tools:layout_editor_absoluteX="37dp">
+
+            <TextView
+                android:id="@+id/textday"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="15dp"
+                android:text="Day"
+                android:textAlignment="center"
+                android:textColor="@color/lightBlue"
+                android:textSize="18sp"
+                android:textStyle="bold">
+
+            </TextView>
+
+            <TextView
+                android:id="@+id/currentday"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_centerInParent="true"
+                android:text="15"
+                android:textAlignment="center"
+                android:textColor="@color/lightBlue"
+                android:textSize="30sp"
+                android:textStyle="bold">
+
+            </TextView>
+
+            <RelativeLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentBottom="true"
+                android:layout_marginEnd="20dp"
+                android:layout_margin="15dp"
+                android:layout_marginBottom="10dp"
+                android:background="@color/lightBlue">
+
+                <ImageView
+                    android:id="@+id/decrementday"
+                    android:layout_width="25dp"
+                    android:layout_height="25dp"
+                    android:src="@drawable/minus">
+
+                </ImageView>
+
+
+            </RelativeLayout>
+
+
+            <RelativeLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentEnd="true"
+                android:layout_alignParentBottom="true"
+                android:layout_marginEnd="20dp"
+                android:layout_marginBottom="10dp"
+                android:background="@color/white">
+
+                <ImageView
+                    android:id="@+id/incrementDay"
+                    android:layout_width="30dp"
+                    android:layout_height="30dp"
+                    android:src="@drawable/plus">
+
+                </ImageView>
+
+
+            </RelativeLayout>
+
+
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:id="@+id/month"
+            android:layout_width="125dp"
+            android:layout_height="125dp"
+            android:layout_gravity="center"
+            android:layout_marginTop="30dp"
+            android:layout_toStartOf="@+id/centerVerticalLine"
+            android:background="@drawable/cardbackground"
+            app:layout_constraintBottom_toTopOf="@+id/time"
+            app:layout_constraintStart_toEndOf="@+id/day"
+            app:layout_constraintTop_toTopOf="parent"
+            tools:ignore="MissingConstraints">
+
+            <TextView
+                android:id="@+id/textmonth"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="15dp"
+                android:text="Month"
+                android:textAlignment="center"
+                android:textColor="@color/lightBlue"
+                android:textSize="18sp"
+                android:textStyle="bold">
+
+            </TextView>
+
+            <TextView
+                android:id="@+id/currentmonth"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_centerInParent="true"
+                android:text="6"
+                android:textAlignment="center"
+                android:textColor="@color/lightBlue"
+                android:textSize="30sp"
+                android:textStyle="bold">
+
+            </TextView>
+
+            <RelativeLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentBottom="true"
+                android:layout_marginEnd="20dp"
+                android:layout_marginBottom="10dp"
+                android:layout_margin="10dp"
+                android:background="@color/lightBlue">
+
+                <ImageView
+                    android:id="@+id/decrementmonth"
+                    android:layout_width="30dp"
+                    android:layout_height="30dp"
+                    android:src="@drawable/minus">
+
+                </ImageView>
+
+
+            </RelativeLayout>
+
+
+            <RelativeLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentEnd="true"
+                android:layout_alignParentBottom="true"
+                android:layout_marginEnd="20dp"
+                android:layout_marginBottom="10dp"
+                android:background="@color/white">
+
+                <ImageView
+                    android:id="@+id/incrementmonth"
+                    android:layout_width="30dp"
+                    android:layout_height="30dp"
+                    android:src="@drawable/plus">
+
+                </ImageView>
+
+
+            </RelativeLayout>
+
+
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:id="@+id/count1"
+            android:layout_width="125dp"
+            android:layout_height="125dp"
+            android:layout_gravity="center"
+            android:layout_marginTop="30dp"
+            android:background="@drawable/cardbackground"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toStartOf="@+id/time"
+            app:layout_constraintHorizontal_bias="0.456"
+            app:layout_constraintStart_toStartOf="parent"
+            tools:ignore="MissingConstraints">
+
+            <TextView
+                android:id="@+id/textcount"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="15dp"
+                android:text="Menstrual Time"
+                android:textAlignment="center"
+                android:textColor="@color/lightBlue"
+                android:textSize="15sp"
+                android:textStyle="bold">
+
+            </TextView>
+
+            <TextView
+                android:id="@+id/currentcount"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_centerInParent="true"
+                android:text="3"
+                android:textAlignment="center"
+                android:textColor="@color/lightBlue"
+                android:textSize="30sp"
+                android:textStyle="bold">
+
+            </TextView>
+
+            <RelativeLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentBottom="true"
+                android:layout_marginEnd="20dp"
+                android:layout_marginBottom="10dp"
+                android:layout_margin="10dp"
+                android:background="@color/lightBlue">
+
+                <ImageView
+                    android:id="@+id/decrementcount"
+                    android:layout_width="30dp"
+                    android:layout_height="30dp"
+                    android:src="@drawable/minus">
+
+                </ImageView>
+
+
+            </RelativeLayout>
+
+
+            <RelativeLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentEnd="true"
+                android:layout_alignParentBottom="true"
+                android:layout_marginEnd="20dp"
+                android:layout_marginBottom="10dp"
+                android:background="@color/white">
+
+                <ImageView
+                    android:id="@+id/incrementcount"
+                    android:layout_width="30dp"
+                    android:layout_height="30dp"
+                    android:src="@drawable/plus">
+
+                </ImageView>
+
+
+            </RelativeLayout>
+
+
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:id="@+id/time"
+            android:layout_width="125dp"
+            android:layout_height="125dp"
+            android:layout_gravity="center"
+            android:layout_marginTop="30dp"
+          android:layout_marginBottom="30dp"
+            android:background="@drawable/cardbackground"
+            tools:ignore="MissingConstraints">
+
+            <TextView
+                android:id="@+id/texttime"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="15dp"
+                android:text="Periodic Time"
+                android:textAlignment="center"
+                android:textColor="@color/lightBlue"
+                android:textSize="15sp"
+                android:textStyle="bold">
+
+            </TextView>
+
+            <TextView
+                android:id="@+id/currenttime"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_centerInParent="true"
+                android:text="15"
+                android:textAlignment="center"
+                android:textColor="@color/lightBlue"
+                android:textSize="30sp"
+                android:textStyle="bold">
+
+            </TextView>
+
+            <RelativeLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentBottom="true"
+                android:layout_marginEnd="20dp"
+                android:layout_marginBottom="10dp"
+                android:layout_margin="10dp"
+                android:background="@color/lightBlue">
+
+                <ImageView
+                    android:id="@+id/decrementtime"
+                    android:layout_width="30dp"
+                    android:layout_height="30dp"
+                    android:src="@drawable/minus">
+
+                </ImageView>
+
+
+            </RelativeLayout>
+
+
+            <RelativeLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentEnd="true"
+                android:layout_alignParentBottom="true"
+                android:layout_marginEnd="20dp"
+                android:layout_marginBottom="10dp"
+                android:background="@color/white">
+
+                <ImageView
+                    android:id="@+id/incrementtime"
+                    android:layout_width="30dp"
+                    android:layout_height="30dp"
+                    android:src="@drawable/plus">
+
+                </ImageView>
+
+
+            </RelativeLayout>
+
+
+        </RelativeLayout>
+
+        <android.widget.Button
+            android:id="@+id/calculatePeriod"
+            android:layout_width="match_parent"
+            android:layout_height="40dp"
+            android:layout_marginStart="8dp"
+            android:layout_marginBottom="20dp"
+            android:background="@drawable/cardbackground"
+            android:text="@string/calculate"
+            android:textColor="@color/lightBlue"
+            android:textSize="15sp"
+            android:textStyle="bold">
+
+        </android.widget.Button>
+    </LinearLayout>
+</androidx.constraintlayout.widget.ConstraintLayout>
