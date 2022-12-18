@@ -20,6 +20,7 @@ public class gender1 extends AppCompatActivity implements View.OnClickListener {
         setContentView(R.layout.activity_gender1);
 
 
+
         boy = (ImageView) findViewById(R.id.boy);
         girl = (ImageView) findViewById(R.id.girl);
 

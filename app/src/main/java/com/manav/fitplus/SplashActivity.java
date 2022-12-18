@@ -22,6 +22,7 @@ public class SplashActivity extends AppCompatActivity {
                     startActivity(new Intent(SplashActivity.this,gender1.class));
                 }
 
+
             }
         };
         thread.start();

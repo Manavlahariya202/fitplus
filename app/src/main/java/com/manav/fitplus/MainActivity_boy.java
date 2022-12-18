@@ -17,6 +17,7 @@ public class MainActivity_boy extends AppCompatActivity implements View.OnClickL
         setContentView(R.layout.activity_main_boy);
 
 
+
         button1 = (ImageView) findViewById(R.id.exerciseCard);
         button2 = (ImageView) findViewById(R.id.bmiCard);
         button3 =(ImageView) findViewById(R.id.DietCard);

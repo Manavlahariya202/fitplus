@@ -12,6 +12,7 @@
         <activity
             android:name=".VideoActivity_girl"
             android:exported="false" />
+
         <activity
             android:name=".selection"
             android:exported="false"

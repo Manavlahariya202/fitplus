@@ -27,6 +27,7 @@ public class bmiActivity1 extends AppCompatActivity {
     RelativeLayout mbackground;
 
 
+
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);

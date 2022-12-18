@@ -22,6 +22,7 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
         setContentView(R.layout.activity_main);
 
 
+
         button1 = (ImageView) findViewById(R.id.exerciseCard);
         button2 = (ImageView) findViewById(R.id.bmiCard);
         button3 =(ImageView) findViewById(R.id.DietCard);

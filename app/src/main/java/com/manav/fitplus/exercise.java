@@ -17,6 +17,7 @@ public class exercise extends AppCompatActivity {
 
 
 
+
         button1 = (ImageView) findViewById(R.id.bicep);
         button2 = (ImageView) findViewById(R.id.leg);
         button3=(ImageView) findViewById(R.id.chest);

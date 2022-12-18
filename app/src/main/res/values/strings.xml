@@ -5,6 +5,7 @@
     <string name="exercise">Exercise</string>
     <string name="calculate">Calculate</string>
     <string name="female">Female</string>
+
     <string name="male">Male</string>
     <string name="re_calculate_your_bmi">Re-Calculate your BMI</string>
     <string name="title_activity_gender1">gender1</string>
